@@ -18,4 +18,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KRTBank.Domain\KRTBank.Domain.csproj" />
+    <ProjectReference Include="..\KRTBank.Infrastructure\KRTBank.Infrastructure.csproj" />
+    <ProjectReference Include="..\KRTBank.Application\KRTBank.Application.csproj" />
+  </ItemGroup>
+
 </Project>

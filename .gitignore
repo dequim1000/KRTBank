@@ -1,0 +1,52 @@
+﻿# .NET Core
+bin/
+obj/
+*.csproj.user
+*.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+*.code-workspace
+
+# NuGet Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Entity Framework Migrations (opcional, se você quiser versionar as migrações, comente esta linha)
+# KRTBank.Infrastructure/Migrations/
+
+# Build and test artifacts
+*.log
+*.trx
+TestResults/
+coverage.*
+
+# IDE-specific files
+*.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Project-specific
+KRTBank.API/bin/
+KRTBank.API/obj/
+KRTBank.Infrastructure/bin/
+KRTBank.Infrastructure/obj/
+KRTBank.Application/bin/
+KRTBank.Application/obj/
+KRTBank.Domain/bin/
+KRTBank.Domain/obj/
+KRTBank.Tests/bin/
+KRTBank.Tests/obj/
+krtbank.db

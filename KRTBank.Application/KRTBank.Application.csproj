@@ -10,4 +10,9 @@
     <PackageReference Include="MediatR" Version="12.4.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KRTBank.Domain\KRTBank.Domain.csproj" />
+    <ProjectReference Include="..\KRTBank.Infrastructure\KRTBank.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
