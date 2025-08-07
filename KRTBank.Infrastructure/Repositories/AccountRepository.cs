@@ -10,7 +10,7 @@ public class AccountRepository : IAccountRepository
 {
     private readonly AppDbContext _context;
     private readonly IMemoryCache _cache;
-    private readonly TimeSpan _cacheDuration = TimeSpan.FromMinutes(10);
+    private readonly TimeSpan _cacheDuration = TimeSpan.FromDays(1);
 
     public AccountRepository(AppDbContext context, IMemoryCache cache)
     {
